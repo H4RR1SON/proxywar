@@ -23,9 +23,9 @@ flowchart LR
     K[Proxy Banning] -.-> D
     
     style B fill:#ff6b6b
-    style C fill:#4ecdc4
-    style D fill:#45b7d1
-    style H fill:#96ceb4
+    style C fill:#059669
+    style D fill:#1e40af
+    style H fill:#065f46
 ```
 
 ## Features
