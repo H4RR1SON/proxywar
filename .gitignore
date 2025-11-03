@@ -1,0 +1,31 @@
+# Rust build artifacts
+/target
+Cargo.lock
+
+# Logs
+*.log
+
+# Config files with credentials (keep example files)
+config/proxies.txt
+config/proxies.txt.backup
+config/*.backup
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test-*.sh
+test-*.txt
+
+# Docker (if you add it back later)
+docker-compose.override.yml
+.env

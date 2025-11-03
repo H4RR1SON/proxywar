@@ -1,0 +1,21 @@
+[package]
+name = "pingora_proxy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pingora-core = { git = "https://github.com/cloudflare/pingora", branch = "main" }
+pingora-proxy = { git = "https://github.com/cloudflare/pingora", branch = "main" }
+pingora-load-balancing = { git = "https://github.com/cloudflare/pingora", branch = "main" }
+pingora-http = { git = "https://github.com/cloudflare/pingora", branch = "main" }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+async-trait = "0.1"
+anyhow = "1"
+once_cell = "1"
+base64 = "0.22"
+url = "2"
+dashmap = "6"

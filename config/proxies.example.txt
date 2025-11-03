@@ -1,0 +1,13 @@
+# Example proxy configuration file
+# Each line should contain a proxy URL in the format:
+# http://username:password@host:port
+#
+# Supported formats:
+# - Direct IP proxies: http://user:pass@192.168.1.1:8080
+# - Domain proxies: http://user:pass@proxy.example.com:8080
+# - Rotating proxies: http://user-rotate:pass@p.webshare.io:80
+#
+# Example entries (replace with your actual proxies):
+http://username:password@proxy1.example.com:8080
+http://username:password@proxy2.example.com:8080
+http://username:password@192.168.1.100:3128
